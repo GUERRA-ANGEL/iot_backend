@@ -9,21 +9,12 @@ conn = sqlite3.connect("sql/dispositivos.db")
 
 app = fastapi.FastAPI()
 
-# Permitimos los origenes para conectarse
-#origins = [
- #   "http://0.0.0.0:8080",
-  #  "http://localhost:8080",
-   # "http://127.0.0.1:8080",
-    #"https://wokwi.com/projects/382607436870432769",
-    #"https://iotfrontend-76a7ab26b9a7.herokuapp.com"
-#]
-
 origins = [
     "http://0.0.0.0:8080",
     "http://localhost:8080",
     "http://127.0.0.1:8080",
-    "URL de woki",
-    "URL del proyecto de iot en heroku",
+    "https://wokwi.com/projects/382796716824864769",
+    "https://frontendiot-8464437b9150.herokuapp.com",
 ]
 
 # Agregamos las opciones de origenes, credenciales, métodos y headers
