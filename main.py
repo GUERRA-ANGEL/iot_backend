@@ -33,7 +33,7 @@ class Dispositivos(BaseModel):
 
 @app.get("/")
 def inicio():
-    return {'Developer by':'Patricio Vargas f:', "IoT Proyect": ":3"}
+    return {'Developer by':'Angel Guerra f:', "IoT Proyect": ":heroku}
 
 # Rutas para las operaciones
 @app.get("/dispositivos")
